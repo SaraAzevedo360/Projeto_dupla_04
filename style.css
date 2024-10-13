@@ -1,8 +1,16 @@
-* {
+body {
     background: linear-gradient(#66cdaa, #40e0d0, #7fffd4);
     font-family: sans-serif;
     font-size: large;
+    margin: 0; /* Remover margens padrão */
 }
+#garrafa{
+    position: absolute;
+    top: 3%;
+    width: 5%;
+    height: 50px;
+}
+
 #lupa{
     position: absolute;
     top: 3%;
@@ -10,12 +18,18 @@
     height: 60px;
     margin-left: -15px;
 }
+
+
 #header {
     display: flex;
     align-items: center;
     padding: 10px;
 }
 
+#reciclagem{
+    display: flex;
+    float: initial;
+}
 #header div {
     display: flex;
     align-items: center;
@@ -25,28 +39,25 @@
     margin-right: 10px;
 }
 
-.reciclagem {
-    display: inline-block;
-    padding: 10px;
-    justify-content: center;
-    background: linear-gradient(#66cdaa, #40e0d0, #7fffd4);
-}
-
 input {
-    height: 40px; /* Aumentado para melhor usabilidade */
-    width: 200px; /* Ajustado */
-    padding: 5px; /* Ajustado */
+    height: 40px; 
+    width: 200px;
+    padding: 5px; 
 }
 
 .flex-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Alinhamento ao topo */
     justify-content: space-between; /* Para alinhar itens */
     margin-bottom: 20px; 
 }
 
 .flex-container img {
     margin-right: 10px; 
+}
+
+.text-container {
+    flex: 1; /* Permite que o texto ocupe o espaço restante */
 }
 
 footer {
