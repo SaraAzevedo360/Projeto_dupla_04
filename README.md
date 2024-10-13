@@ -7,6 +7,6 @@ Jeferson Mello e Sara Azevedo
 - Somos uma organização com o objetivo de tranformar.
 - Concientizando e melhorando a qualidade de vida com a informação.
 
-Falamos sobre os conceitos das reciclagens e a importância da direnças das garrafas.
+Falamos sobre os conceitos das reciclagens e a importância da diferenças entre as garrafas.
 Modelos, tipos e fabricação.
  
