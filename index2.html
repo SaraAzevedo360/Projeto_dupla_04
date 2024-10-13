@@ -3,15 +3,18 @@
 <head>
     
     <meta charset="UTF-8">
-   
+   <link rel="stylesheet" href="style2.css">
     <title> QuebrandoaGarrafa.com </title>
     
 </head>
 
-<body>
+<body id="formulario">
     <h1> Ajude-nos com essas questões! </h1>
     <form>
-        
+
+        <img id="garrafa" src="./IMG/garrafa-quebrada.png" alt="logo">
+        <img id="lupa" src="./IMG/lupa.png" alt="logo">
+
         <label for="nome">Nome:</label>
         
         <input type="text" id="nome" name="nome" required>
@@ -50,15 +53,19 @@
 
         <label for="feedback">Feedback geral sobre nosso blog:</label><br>
         <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
-
-        <button type="submit">Enviar</button>
     </form>
+
+    <button type="submit">Enviar</button>
+
     <footer>
-        <div>
+        <div class="footer">
         <img src="./IMG/Contato.png" alt="Contato">
         <img src="./IMG/Whats.png" alt="WhatsApp">
         <img src="./IMG/Instagram.png" alt="Instagram">
         <img src="./IMG/Facebook.png" alt="Facebook">
+        </div>
+
+        <div class="footer2">
         <p>Av. Gen. Ataliba Leonel, 245 <br> Santana, São Paulo - SP, 02033-000</p>
         <p>&copy;2024</p>
         </div>
