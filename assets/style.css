@@ -1,0 +1,60 @@
+* {
+    background: linear-gradient(#66cdaa, #40e0d0, #7fffd4);
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#header div {
+    display: flex;
+    align-items: center;
+}
+
+#header img {
+    margin-right: 10px;
+}
+
+.reciclagem {
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+    background: linear-gradient(#66cdaa, #40e0d0, #7fffd4);
+}
+
+input {
+    height: 40px; /* Aumentado para melhor usabilidade */
+    width: 200px; /* Ajustado */
+    padding: 5px; /* Ajustado */
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Para alinhar itens */
+    margin-bottom: 20px; 
+}
+
+.flex-container img {
+    margin-right: 10px; 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px; /* Adicionado espaço */
+    background: #f0f0f0; /* Fundo claro */
+}
+
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column; /* Empilha itens em telas pequenas */
+    }
+    input {
+        width: 100%; /* Ocupa toda a largura disponível */
+    }
+}
